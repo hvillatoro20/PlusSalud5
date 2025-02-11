@@ -1,0 +1,211 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Fondo blanco */
+    color: #333333; /* Texto oscuro */
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #003366; /* Azul oscuro */
+    color: #ffffff; /* Texto blanco */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Barra de navegación */
+nav {
+    background-color: #00509e; /* Azul claro */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff; /* Texto blanco */
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #003366; /* Azul oscuro al pasar el mouse */
+}
+
+/* Secciones principales */
+main {
+    padding: 20px;
+}
+
+.content-section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content-section h2 {
+    color: #003366; /* Azul oscuro */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.content-section p {
+    font-size: 1.1rem;
+    color: #555555; /* Texto gris oscuro */
+}
+
+/* Formulario de agendar cita */
+#citaForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#citaForm label {
+    font-size: 1.1rem;
+    color: #003366; /* Azul oscuro */
+}
+
+#citaForm select,
+#citaForm input[type="date"] {
+    padding: 10px;
+    border: 1px solid #00509e; /* Azul claro */
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#horas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.hora-btn {
+    padding: 10px 15px;
+    background-color: #00509e; /* Azul claro */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hora-btn:hover {
+    background-color: #003366; /* Azul oscuro al pasar el mouse */
+}
+
+/* Pie de página */
+footer {
+    background-color: #003366; /* Azul oscuro */
+    color: #ffffff; /* Texto blanco */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer button {
+    background-color: #00509e; /* Azul claro */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+footer button:hover {
+    background-color: #003366; /* Azul oscuro al pasar el mouse */
+}
+
+/* Chatbot */
+#chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#chatbot-btn {
+    background-color: #00509e; /* Azul claro */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#chatbot-btn:hover {
+    background-color: #003366; /* Azul oscuro al pasar el mouse */
+}
+
+#chatbot-window {
+    display: none;
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+#chatbot-window input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #00509e; /* Azul claro */
+    border-radius: 5px;
+}
+
+#enviar-chat {
+    background-color: #00509e; /* Azul claro */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#enviar-chat:hover {
+    background-color: #003366; /* Azul oscuro al pasar el mouse */
+}
+
+/* Estilos para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el mapa */
+iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 20px;
+}
